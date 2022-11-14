@@ -2,7 +2,7 @@
 package main
 
 /*
-Os códigos em Go são organizados em pacotes
+Os códigos em Go são organizados em pacotes e
 e para usá-los é necessário declarar um ou vários imports
 */
 import "fmt"
@@ -11,6 +11,7 @@ import "fmt"
 func main() {
 	fmt.Print("Primeiro ")
 	fmt.Print("Programa!")
+	fmt.Println("Programa executado com sucesso")
 
 	/*
 		Sobre comentários...
